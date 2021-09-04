@@ -12,7 +12,7 @@ h2, h3, h4, h5, h6 {
 
 h2 {
   font-family: 'Roboto', sans-serif;
-  font-size: 5rem;
+  font-size: 4rem;
   margin: 0px 0px;
 }
 
@@ -43,6 +43,7 @@ hr {
   border-color: grey;
   border-width: 5px;
   margin: 10px auto;
+  width: 100%;
 }
 
 .shortHr {
@@ -56,6 +57,7 @@ hr {
   padding: 5%;
   margin: 2% auto;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .topSection {
@@ -68,6 +70,7 @@ hr {
 
 .intro {
   display: flex;
+  width: 65%;
 }
 
 .introDescription {
@@ -124,8 +127,8 @@ hr {
 
 .contacts {
   text-align: right;
-  min-height: 185px;
-  margin: auto;
+  width: 35%;
+  align-self: flex-end;
 }
 
 .contactItem {
@@ -140,7 +143,11 @@ hr {
   font-size: 18px;
 }
 
-.blockList{
+.blockSection {
+  margin-bottom: 2rem;
+}
+
+.blockList {
   display: flex;
   flex-wrap: wrap;
   width: 90%;
