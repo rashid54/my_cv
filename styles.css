@@ -103,6 +103,8 @@ hr {
 .itemList {
   width: 90%;
   margin: auto;
+  display: flex;
+  flex-flow: column wrap;
 }
 
 .item {
@@ -110,10 +112,12 @@ hr {
   padding: 15px;
   border-radius: 20px;
   background-color: #c9daf8;
+  width: 85%;
 }
 
 .alignRight {
   text-align: right;
+  align-self: flex-end;
 }
 
 .sourceCode {
@@ -156,6 +160,7 @@ hr {
   flex-wrap: wrap;
   width: 90%;
   margin: auto;
+  justify-content: space-around;
 }
 
 .blockPoint {
@@ -163,7 +168,7 @@ hr {
   padding: .25rem .75rem;
   border-style: none;
   border-radius: 10rem;
-  background-color: #4591f5;
+  background-color: #2f75c4;
   font-family: 'Noto Serif', serif;
   font-size: 1.2rem;
   color: #f0f7ff;
