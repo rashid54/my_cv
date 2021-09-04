@@ -51,6 +51,10 @@ hr {
   border-width: 8px;
 }
 
+.hiddenHr {
+  display: none;
+}
+
 .mainBody {
   background-color: #EAF6F6;
   width: 80%;
@@ -126,11 +130,18 @@ hr {
   padding: .2rem 1.25rem;
   border-radius: 10rem;
   border-style: none;
-  /* background-color: #5dfc85; */
   background-color: #3acdde;
   color: #000;
-  /* color: #66bfbf; */
   font-family: 'Noto Serif', serif;
+}
+
+.sourceCode:visited {
+  color: #000;
+}
+
+.sourceCode:hover {
+  background-color: #2f75c4;
+  color: #ffffff;
 }
 
 .contacts {
@@ -139,11 +150,19 @@ hr {
   align-self: flex-end;
 }
 
+.contacts a {
+  color: #0000ee;
+}
+
 .contactItem {
   padding: 2px 10px;
   border-radius: 15px;
   margin: 5px 0px;
   background-color: #c9daf8;
+}
+
+.contactItem:hover {
+  text-align: center;
 }
 
 .fa {
@@ -173,8 +192,148 @@ hr {
   font-size: 1.2rem;
   color: #f0f7ff;
 }
-
 /*
-font-family: 'Roboto', sans-serif;
-font-family: 'Noto Serif', serif;
-font-family: 'Ubuntu', sans-serif; */
+@media all and (max-width: 1460px) {
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.1rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+
+.profilePic {
+  width: 130px;
+  height: 130px;
+}
+
+} */
+
+@media all and (max-width: 1420px) {
+
+h2 {
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+h6 {
+  font-size: 1.1rem;
+}
+
+
+.profilePic {
+  width: 100px;
+  height: 100px;
+}
+
+}
+
+@media all and (max-width: 1024px) {
+
+  h2 {
+    font-size: 3rem;
+  }
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  h5 {
+    font-size: 1.3rem;
+  }
+
+  h6 {
+    font-size: 1.2rem;
+  }
+
+  .profilePic {
+    width: 150px;
+    height: 150px;
+  }
+
+  .mainBody {
+    flex-flow: column nowrap;
+  }
+
+  .intro, .education, .bottomSection, .projects, .contacts {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+  }
+
+  .alignRight{
+    text-align: center;
+    align-self: baseline;
+  }
+
+  .item {
+    width: 90%;
+  }
+
+  .contacts {
+    order: 10;
+  }
+
+  .contactItem {
+    display: flex;
+    flex-flow: row-reverse nowrap;
+    justify-content: center;
+  }
+
+  .contactItem:hover {
+    justify-content: flex-end;
+  }
+
+  .hiddenHr {
+    display: block;
+  }
+
+  .blockList {
+    justify-content: center;
+  }
+
+}
+
+
+@media all and (max-width: 800px) {
+
+  h2 {
+    font-size: 2.5rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+  }
+
+  h6 {
+    font-size: 1.1rem;
+  }
+
+
+  .profilePic {
+    width: 100px;
+    height: 100px;
+  }
+
+}
