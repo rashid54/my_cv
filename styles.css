@@ -47,7 +47,7 @@ hr {
 }
 
 .shortHr {
-  width: 15%;
+  width: 30%;
   border-width: 8px;
 }
 
@@ -58,14 +58,23 @@ hr {
   margin: 2% auto;
   display: flex;
   flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 .topSection {
   width: 65%;
 }
 
+.education {
+  width: 65%;
+}
+
 .bottomSection {
   width: 35%;
+}
+
+.projects {
+  width: 100%;
 }
 
 .intro {
@@ -82,11 +91,6 @@ hr {
   display: flex;
   flex-flow: column wrap;
   margin: auto 30px;
-}
-
-.section {
-  width: 90%;
-  margin: auto;
 }
 
 .profilePic {
