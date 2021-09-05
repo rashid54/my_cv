@@ -147,10 +147,6 @@ hr {
   color: #000;
 }
 
-.sourceCode:hover {
-  background-color: #2f75c4;
-  color: #ffffff;
-}
 
 .contacts {
   text-align: right;
@@ -169,8 +165,16 @@ hr {
   background-color: #c9daf8;
 }
 
-.contactItem:hover {
-  text-align: left;
+@media all and (min-width: 800px) {
+  .sourceCode:hover {
+    background-color: #2f75c4;
+    color: #ffffff;
+  }
+
+  .contactItem:hover {
+    text-align: left;
+  }
+
 }
 
 .fa {
@@ -303,10 +307,6 @@ h6 {
     display: flex;
     flex-flow: row-reverse nowrap;
     justify-content: center;
-  }
-
-  .contactItem:hover {
-    justify-content: flex-end;
   }
 
   .hiddenHr {
