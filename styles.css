@@ -58,6 +58,7 @@ hr {
 
 .miniHr {
   border-width: 3px;
+  width: 80%;
 }
 
 .smallHr {
@@ -66,6 +67,15 @@ hr {
 
 .hiddenHr {
   display: none;
+}
+
+
+.lightText {
+  color: #3acdde;
+  font-size: .8rem;
+  margin: 0px;
+  padding: 0px;
+  display: block;
 }
 
 .mainBody {
@@ -79,10 +89,6 @@ hr {
 }
 
 .topSection {
-  width: 65%;
-}
-
-.education {
   width: 65%;
 }
 
@@ -288,7 +294,7 @@ h6 {
     flex-flow: column nowrap;
   }
 
-  .intro, .education, .bottomSection, .projects, .contacts {
+  .intro, .topSection, .bottomSection, .projects, .contacts {
     width: 100%;
     text-align: center;
     display: inline-block;
