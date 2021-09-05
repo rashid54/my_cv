@@ -30,6 +30,7 @@ h5 {
 h6 {
   font-size: 1.2rem;
   margin: 0px 0px 10px 0px;
+  font-style: italic;
 }
 
 p {
@@ -92,7 +93,6 @@ hr {
 
 .introDescription {
   margin: auto 0px;
-  font-size: 1.2rem;
 }
 
 .introInfo {
@@ -319,11 +319,11 @@ h6 {
 @media all and (max-width: 800px) {
 
   h2 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 
   h3 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 
   h5 {
@@ -334,10 +334,13 @@ h6 {
     font-size: 1.1rem;
   }
 
+  p {
+    font-size: 1rem;
+  }
 
   .profilePic {
-    width: 100px;
-    height: 100px;
+    width: 130px;
+    height: 130px;
   }
 
 }
