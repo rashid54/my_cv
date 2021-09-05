@@ -51,6 +51,10 @@ hr {
   border-width: 8px;
 }
 
+.miniHr {
+  border-width: 3px;
+}
+
 .hiddenHr {
   display: none;
 }
@@ -162,7 +166,7 @@ hr {
 }
 
 .contactItem:hover {
-  text-align: center;
+  text-align: left;
 }
 
 .fa {
