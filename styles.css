@@ -47,6 +47,10 @@ hr {
   width: 100%;
 }
 
+.hidden {
+  visibility: hidden;
+}
+
 .shortHr {
   width: 30%;
   border-width: 8px;
@@ -311,6 +315,10 @@ h6 {
 
   .hiddenHr {
     display: block;
+  }
+
+  .hidden {
+    visibility: visible;
   }
 
   .blockList {
